@@ -1,0 +1,27 @@
+html,
+body {
+  height: 75%;
+}
+
+.container {
+  display: flex;
+  height: 100%;
+}
+
+.sidebar {
+  flex: 0 0 100px;
+  background-color: #eee;
+  padding: 20px;
+  height: 100%;
+}
+
+.body {
+  flex: 1;
+  padding: 20px;
+  height: 100%;
+}
+
+h1,
+h3 {
+  margin-top: 0;
+}

@@ -1,0 +1,37 @@
+footer {
+  position: fixed;
+  background-color: #333;
+  width: 100%;
+  color: #fff;
+  padding: 0.5em;
+  bottom: 0;
+}
+
+.conFooter {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-center;
+  align-items: center;
+}
+
+nav .ulFooter {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav .liFooter {
+  margin: 0 1em;
+}
+
+nav .aFooter {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav .aFooter:hover {
+  text-decoration: underline;
+  color: #f00;
+}
