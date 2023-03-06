@@ -4,22 +4,30 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Layout1</title>
+    <title>Layout2</title>
     <link rel="stylesheet" href="Styles/logo.css" />
     <link rel="stylesheet" href="Styles/banner.css" />
     <link rel="stylesheet" href="Styles/sidebar.css" />
     <link rel="stylesheet" href="Styles/footer.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
   </head>
   <body>
     <!--Logo-->
     <a href="#" class="logo">My Logo</a>
-    <nav class="TopNav">
-      <ul class="ulLogo">
-        <li class="liLogo"><a class="aLogo" href="#">Home</a></li>
-        <li class="liLogo"><a class="aLogo" href="#">About</a></li>
-        <li class="liLogo"><a class="aLogo" href="#">Contact</a></li>
-      </ul>
-    </nav>
+    <div class="TopNav">
+      <nav>
+        <ul class="ul">
+          <li class="li"><a class="a" href="#">Home</a></li>
+          <li class="li"><a class="a" href="#">About</a></li>
+          <li class="li"><a class="a" href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
 
     <!--Header/Banner-->
     <header>
@@ -56,15 +64,23 @@
     <!--Footer-->
     <footer>
       <div class="conFooter">
-        <p>&copy; 2023 My Website</p>
         <nav>
-          <ul class="ulFooter">
-            <li class="liFooter"><a class="aFooter" href="#">Home</a></li>
-            <li class="liFooter"><a class="aFooter" href="#">About</a></li>
-            <li class="liFooter"><a class="aFooter" href="#">Contact</a></li>
+          <ul class="ul">
+            <li class="li"><a class="a" href="#">Home</a></li>
+            <li class="li"><a class="a" href="#">About</a></li>
+            <li class="li"><a class="a" href="#">Contact</a></li>
           </ul>
         </nav>
+        <div class="copyRight">
+          <p>&copy; 2023 My Website</p>
+        </div>
       </div>
     </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

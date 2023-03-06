@@ -13,33 +13,30 @@
 .TopNav {
   position: fixed;
   top: 40px;
-  left: 5px;
   background-color: #333333;
   width: 100%;
 }
 
-nav .ulLogo {
+.TopNav nav .ul {
   list-style-type: none;
   padding: 0.5em;
   margin: 0;
   display: flex;
-  flex-direction: row;
-  justify-content: center;
   align-items: center;
 }
 
-nav .liLogo {
+.TopNav nav .li {
   margin: 0 10px;
 }
 
-nav .aLogo {
+.TopNav nav .a {
   display: block;
   color: white;
   text-decoration: none;
   transition: color 0.2s;
 }
 
-nav .aLogo:hover {
+.TopNav nav .a:hover {
   text-decoration: underline;
   color: #f00;
 }

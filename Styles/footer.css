@@ -8,30 +8,39 @@ footer {
 }
 
 .conFooter {
-  max-width: 1200px;
   margin: 0 auto;
   display: flex;
-  justify-content: space-center;
+  padding: 0%;
+  margin-left: 0px;
   align-items: center;
 }
 
-nav .ulFooter {
+.conFooter nav .ul {
   list-style: none;
   margin: 0;
   padding: 0;
   display: flex;
 }
 
-nav .liFooter {
+.conFooter nav .li {
   margin: 0 1em;
 }
 
-nav .aFooter {
+.conFooter nav .a {
   color: #fff;
   text-decoration: none;
 }
 
-nav .aFooter:hover {
+.conFooter nav .a:hover {
   text-decoration: underline;
   color: #f00;
+}
+
+.copyRight {
+  width: 100%;
+  text-align: center;
+}
+
+.copyRight p {
+  margin: 0%;
 }
